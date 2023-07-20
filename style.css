@@ -1,0 +1,441 @@
+body {
+    background-color: rgb(255, 192, 192);
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.barra {
+    height: 1300px;
+    width: 50px;
+    background-color: aqua;
+}
+
+.rectan {
+    height: 1300px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px grey;
+    top: 1%;
+    right: 10%; 
+}
+
+.rectan img {
+    position: relative;
+    left: 12%;
+}
+
+.rectan h1 {
+    color: rgb(21, 187, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: 50%;
+    bottom: 20%;
+}
+
+.fecha {
+    color: rgb(21, 187, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 60%;
+    bottom: 27%;
+}
+
+.factura {
+    color: rgb(21, 187, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 57%;
+    bottom: 35%;
+}
+
+.numero {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    position: relative;
+    left: 70%;
+    bottom: 32.1%;
+}
+
+.codigo {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    position: relative;
+    left: 69%;
+    bottom: 40.1%;
+}
+
+.nombre {
+    color: rgb(21, 187, 199);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 34%;
+    left: 7%;
+}
+
+.info1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 38%;
+    left: 7%;
+}
+
+.metodo {
+    color: rgb(21, 187, 199);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 47%;
+    left: 60%;
+}
+
+.info2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 49%;
+    left: 60%;
+}
+
+.cuadro1 {
+    background-color: aqua;
+    height: 35px;
+    width: 700px;
+    position: relative;
+    margin: 70px;
+    right: 63%;
+}
+
+.a1 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 56.5%;
+    left: 18%;
+
+}
+
+.b2 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 60.5%;
+    left: 45%;
+
+}
+
+.c3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 64.5%;
+    left: 60%;
+
+}
+
+.d4 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 68.5%;
+    left: 80%;
+
+}
+
+.cuadro01 {
+    display: grid;
+    grid-template-columns: 46% 20% 20% 20% 20%;
+    height: 35px;
+    width: 700px;
+    position: relative;
+    bottom: 70%;
+    left: 5.5%;
+    align-items: center;
+}
+
+.cuadro2 {
+    display: grid;
+    grid-template-columns: 46% 20% 20% 20% 20%;
+    height: 35px;
+    width: 700px;
+    position: relative;
+    bottom: 70%;
+    left: 5.5%;
+    align-items: center;
+    background-color: rgb(161, 159, 159);
+}
+
+.cuadro3 {
+    display: grid;
+    grid-template-columns: 46% 20% 20% 20% 20%;
+    height: 35px;
+    width: 700px;
+    position: relative;
+    bottom: 70%;
+    left: 5.5%;
+    align-items: center;
+}
+
+.cuadro4 {
+    display: grid;
+    grid-template-columns: 46% 20% 20% 20% 20%;
+    height: 35px;
+    width: 700px;
+    position: relative;
+    bottom: 70%;
+    left: 5.5%;
+    align-items: center;
+    background-color: rgb(161, 159, 159);
+}
+
+.cuadro5 {
+    display: grid;
+    grid-template-columns: 46% 20% 20% 20% 20%;
+    height: 35px;
+    width: 700px;
+    position: relative;
+    bottom: 70%;
+    left: 5.5%;
+    align-items: center;
+    box-shadow: 0px 3px grey;
+}
+
+.fina {
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 70%;
+    left: 75%;
+}
+
+.men {
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 60%;
+    left: 10%;
+}
+
+.gracias {
+    color: rgb(21, 187, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: 60%;
+    bottom: 78%;
+}
+
+.raya {
+    background-color: aqua;
+    width: 700px;
+    height: 8px;
+    position: relative;
+    left: 6%;
+    bottom: 78%;
+}
+
+.textf {
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 80%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .barra {
+        height: 1300px;
+        width: 50px;
+        background-color: aqua;
+    }
+    
+    .rectan {
+        height: 1300px;
+        width: 800px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px 3px grey;
+        top: 1%;
+        right: 10%; 
+    }
+  }
+
+
+  @media screen and (max-width: 1199px) and (min-width: 768px) {
+    .barra {
+        height: 1200px;
+        width: 40px;
+        background-color: aqua;
+    }
+    
+    .rectan {
+        height: 1200px;
+        width: 700px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px 3px grey;
+        top: 1%;
+        right: 10%; 
+    }
+  .cuadro01, .cuadro2, .cuadro3, .cuadro4, .cuadro5{
+        display: grid;
+        grid-template-columns: 46% 20% 20% 20% 20%;
+        height: 35px;
+        width: 600px;
+        position: relative;
+        bottom: 70%;
+        left: 5.5%;
+        align-items: center;
+  }
+  .cuadro1{
+    background-color: aqua;
+    height: 35px;
+    width: 600px;
+    position: relative;
+    margin: 70px;
+    right: 63%;
+  }
+  .men {
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 65%;
+    left: 10%;
+}
+.gracias {
+    color: rgb(21, 187, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 60%;
+    bottom: 78%;
+}
+.raya {
+    background-color: aqua;
+    width: 600px;
+    height: 8px;
+    position: relative;
+    left: 6%;
+    bottom: 78%;
+}
+
+  }
+
+  @media screen and (max-width: 767px) {
+    .barra {
+        height: 1100px;
+        width: 30px;
+        background-color: aqua;
+    }
+    .rectan {
+        height: 1100px;
+        width: 450px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px 3px grey;
+        top: 1%;
+        right: 10%; 
+    }
+    .cuadro01, .cuadro1, .cuadro2, .cuadro3, .cuadro4, .cuadro5{
+        display: grid;
+        grid-template-columns: 46% 20% 20% 20% 20%;
+        height: 35px;
+        width: 380px;
+        position: relative;
+        bottom: 70%;
+        left: 5.5%;
+        align-items: center;
+    }
+    .cuadro1{
+        background-color: aqua;
+        height: 35px;
+        width: 400px;
+        position: relative;
+        margin: 70px;
+        left: -70%;
+      }
+      .rectan h1 {
+        color: rgb(21, 187, 199);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        position: relative;
+        left: 60%;
+        bottom: 20%;
+    }
+    .gracias {
+        color: rgb(21, 187, 199);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        position: relative;
+        left: 60%;
+        bottom: 78%;
+    }
+    .raya {
+        background-color: aqua;
+        width: 400px;
+        height: 8px;
+        position: relative;
+        left: 6%;
+        bottom: 78%;
+    }
+    .textf {
+        color: black;
+        font-size: 6px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom: 80%;
+        text-align: center;
+    }
+    .men {
+        color: black;
+        font-size: 9px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom: 75%;
+        left: 10%;
+    }
+    .fina {
+        color: black;
+        font-size: 12px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom: 70%;
+        left: 75%;
+    }
+    .info1 {
+        color: rgb(0, 0, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        position: relative;
+        bottom: 38%;
+        left: 7%;
+    }
+    .info2 {
+        color: rgb(0, 0, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 11px;
+        position: relative;
+        bottom: 49%;
+        left: 60%;
+    }
+}
